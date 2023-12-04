@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Input Numbers");
+            int num1 = Int32.Parse(Console.ReadLine());
+            int num2 = Int32.Parse(Console.ReadLine());
         }
     }
 }
